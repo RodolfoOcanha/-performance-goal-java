@@ -15,15 +15,14 @@ public class Menu {
 		System.out.println(CoresMenu.TEXT_BLACK_BOLD + CoresMenu.ANSI_GREEN_BACKGROUND
 				+ "*****************************************************");
 		System.out.println("                                                     ");
-		System.out.println(" BEM VINDO(A) A LOJA FUTURE COMERCIO DE ELETRÔNICOS! ");
+		System.out.println("    SISTEMA DA FUTURE COMERCIO DE ELETRONICOS        ");
 		System.out.println("                                                     ");
 		System.out.println("*****************************************************");
 		System.out.println("                                                     ");
 		System.out.println("            1 - Cadastrar o produto                  ");
 		System.out.println("            2 - Visualizar Lista de produtos         ");
-		System.out.println("            3 - Compra de produto                    ");
-		System.out.println("            4 - Atualizar                            ");
-		System.out.println("            5 - Deletar Produto                      ");
+		System.out.println("            3 - Atualizar                            ");
+		System.out.println("            4 - Deletar Produto                      ");
 		System.out.println("            0 - Sair                                 ");
 		System.out.println("                                                     ");
 		System.out.println("*****************************************************");
@@ -40,14 +39,11 @@ public class Menu {
                 System.out.println("Lista de produtos:");
                 break;
             case 3:
-                System.out.println("Digite o código do produto que deseja:");
+                System.out.println("Digite o código do produto que deseja atualizar no sistema:");
                 break;
             case 4:
-                System.out.println("Digite o ID do produto que deseja atualizar:");
+                System.out.println("Digite o ID do produto que deseja deletar:");
                 break;
-            case 5:
-                System.out.println("Digite o código do produto que quer deletar:");
-                break;    
             case 0:
                 System.out.println("Obrigado por visitar o site, até breve!");
                 break;
