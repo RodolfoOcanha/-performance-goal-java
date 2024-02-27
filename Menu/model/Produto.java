@@ -9,7 +9,8 @@ public abstract class Produto {
 	private String nomeProduto;
 	private float valor;
 	
-
+    public Produto() {}
+    
 	public Produto(int id, String nomeProduto, float valor) {
 		this.id = id;
 		this.nomeProduto = nomeProduto;

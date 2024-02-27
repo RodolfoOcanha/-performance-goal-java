@@ -10,7 +10,8 @@ public interface ProdutoRepository {
 	public void cadastrar(Produto produto);
 	public void atualizar(Produto produto); 
 	public void deletar(int id);
-	public void tipoProduto (String tipoProduto);
+	public void tipoProduto (int tipoProduto);
+	
 	
 	
 }
