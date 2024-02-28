@@ -17,16 +17,20 @@ public abstract class Produto {
 		this.valor = valor;
 	}
 
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	public String getNomeProduto() {
 		return nomeProduto;
 	}
 
 	public void setNomeProduto(String nomeProduto) {
 		this.nomeProduto = nomeProduto;
-	}
-
-	public int getId() {
-		return id;
 	}
 
 	public float getValor() {
@@ -37,18 +41,18 @@ public abstract class Produto {
 		this.valor = valor;
 	}
 
-	public void setId(int id) {
-		this.id = id;
-	}
-	
 	public void visualizar() {
 
 		System.out.println(CoresMenu.TEXT_RED_BOLD +"\n********************************");
-		System.out.println(CoresMenu.TEXT_WHITE_BOLD +"        Dados Produto:          ");
+		System.out.println(CoresMenu.TEXT_WHITE_BOLD +"   Produtos cadastrados:        ");
 		System.out.println(CoresMenu.TEXT_RED_BOLD +"******************************** " );
-		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "ID do produto " + this.id);
-		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "Nome do produto " + this.nomeProduto);
-		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "Valor do produto " + this.nomeProduto);
+		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "ID do produto: " + getId());
+		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "Nome do produto: " + getNomeProduto());
+		System.out.println(CoresMenu.TEXT_WHITE_BOLD + "Valor do produto: R$" + getValor());
 		
 	}
-}	
+
+	
+		
+	}
+	
